@@ -1,0 +1,140 @@
+body {
+    background-color:#f7cacd;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+color:#64113f;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#f29ca3;
+  color:#64113f;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+   
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#de4d86;
+  }
+  
+  .active {
+    background-color:#f29ca3;
+  }
+
+  h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    color:#64113f;
+  }
+
+  .overview {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#64113f;
+    text-align: left;
+  }
+
+  .flex-container {
+    display:flex;
+    background-color:#f29ca3;
+  }
+
+  .flex-container > div {
+    background-color:#de4d86;
+    margin: 10px;
+    padding: 20px;
+    animation-name: Slide2;
+    animation-direction:normal;
+    animation-duration: 2s;
+  }
+
+  footer {
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    width: 100%;
+    background-color:#f29ca3;
+    position: fixed;
+    left: 0;
+   bottom: 0;
+   color:#64113f;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+  
+  button[type=submit]:hover {
+    background-color: #64113f;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f7cacd;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button[type=submit] {
+    width: 100%;
+    background-color:#de4d86;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  @keyframes Slide2 {
+    from {
+        transform: translateX(-200px);
+    
+    }
+    to {
+        transform: translateX(0);
+    }
+  }
+
+  
